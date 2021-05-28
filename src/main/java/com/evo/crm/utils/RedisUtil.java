@@ -60,7 +60,7 @@ public class RedisUtil {
         for(int i=0;i < numSet.size();i++){
             dicValueList.add(i,null);
         }
-        //遍历Set
+        //遍历数据库key的Set
         while (itNum.hasNext()){
 
 
